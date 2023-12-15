@@ -21,4 +21,4 @@ COPY . /app/
 EXPOSE 8000
 
 # Command to run your FastAPI application
-CMD ["python", "app.py"]
+CMD ["python", "main.py"]
