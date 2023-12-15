@@ -20,12 +20,11 @@ This endpoint generates a canvas fingerprint based on various parameters, provid
 - **Body:**
   - Provide a JSON object with the following parameters:
     - `user_agent`: The user agent string of the browser.
-    - `webgl_data`: A JSON object containing WebGL data.
     - `screen_resolution`: An array representing the screen resolution, e.g., `[1920, 1080]`.
 
 ### Example Request
 ```bash
-curl -X POST -H "Content-Type: application/json" -d '{"user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36", "webgl_data": {"vendor": "Vendor A", "renderer": "Renderer X", "version": "Version 1", "extensions": ["ext1", "ext2"]}, "screen_resolution": [1920, 1080]}' https://fingerprint-morcmqqs.b4a.run/canvas-fingerprint
+curl -X POST -H "Content-Type: application/json" -d '{"user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36",  "screen_resolution": [1920, 1080]}' https://fingerprint-morcmqqs.b4a.run/canvas-fingerprint
 ```
 
 ### Response
