@@ -34,9 +34,10 @@ The response will be a JSON object containing the canvas fingerprint details.
 ### Example Response
 ```json
 {
-  "canvas_fingerprint": "abc123xyz456",
-  "timestamp": "2023-12-15T12:00:00Z"
-}
+  "canvas_fingerprint":"8e5fea77",
+  "screen_resolution":[1510,886],
+  "user_agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3",
+  "webgl_data":"eyJ2ZW5kb3IiOiAiVmVuZG9yIEIiLCAicmVuZGVyZXIiOiAiUmVuZGVyZXIgWSIsICJ2ZXJzaW9uIjogIlZlcnNpb24gMSIsICJleHRlbnNpb25zIjogW119"}
 ```
 
 ## Generate Canvas Image Endpoint (Under Construction)
