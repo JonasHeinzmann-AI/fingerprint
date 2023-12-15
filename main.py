@@ -10,7 +10,7 @@ import string
 import os
 import uuid
 import chromedriver_autoinstaller
-chromedriver_autoinstaller.install()  # Install or update ChromeDriver
+#chromedriver_autoinstaller.install()  # Install or update ChromeDriver
 
 app = Flask(__name__)
 
